@@ -1,24 +1,24 @@
 {
   "Application": {
-    "Name": "7-Zip",
-    "Filter": "Get-EvergreenApp -Name \"7Zip\" | Where-Object { $_.Architecture -eq \"x64\" -and $_.Type -eq \"msi\" }",
-    "Title": "7-Zip",
+    "Name": "MicrosoftOLEDBDriverForSQLServer",
+    "Filter": "Get-EvergreenApp -Name \"MicrosoftOLEDBDriverForSQLServer\" | Where-Object { $_.Language -eq \"English\" -and $_.Architecture -eq \"x64\" -and $_.Type -eq \"msi\" }",
+    "Title": "MicrosoftOLEDBDriverForSQLServer",
     "Language": "English",
     "Architecture": "x64"
   },
   "PackageInformation": {
     "SetupType": "MSI",
-    "SetupFile": "7z2501-x64.msi",
-    "Version": "25.01",
+    "SetupFile": "msoledbsql.msi",
+    "Version": "19.3.3.0",
     "SourceFolder": "Source",
     "OutputFolder": "Package",
     "IconFile": "https://github.com/aaronparker/icons/raw/main/companyportal/Package.png"
   },
   "Information": {
-    "DisplayName": "7-Zip 25.01 x64",
+    "DisplayName": "MicrosoftOLEDBDriverForSQLServer 19.3.3.0 x64",
     "Description": "The OLE DB Driver for SQL Server is a stand-alone data access application programming interface (API), that is part of OLE DB.",
     "Publisher": "Microsoft",
-    "InformationURL": "https://learn.microsoft.com/en-us/sql/connect/oledb/oledb-driver-for-sql-server?view=sql-server-ver16",
+    "InformationURL": "https://learn.microsoft.com/en-us/sql/connect/oledb/download-oledb-driver-for-sql-server?view=sql-server-ver17",
     "PrivacyURL": "https://privacy.microsoft.com/privacystatement",
     "Categories": [],
     "PSPackageFactoryGuid": "27e8b145-6434-44b7-a1d7-90172bec588a"
@@ -43,7 +43,7 @@
       "Path": "C:\\Program Files\\PowerShell\\7",
       "FileOrFolder": "pwsh.exe",
       "Operator": "greaterThanOrEqual",
-      "VersionValue": "25.01",
+      "VersionValue": "19.3.3.0",
       "Check32BitOn64System": "false"
     }
   ],

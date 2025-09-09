@@ -1,0 +1,15 @@
+{
+  "PackageInformation": {
+    "SetupType": "MSI",
+    "SetupFile": "pdf24-creator-11.28.1.msi",
+    "Version": "11.28.1"
+  },
+  "LogPath": "C:\\Logs",
+  "InstallTasks": {
+    "ArgumentList": "/package \"#SetupFile\" /quiet /log \"#LogPath\\#LogName.log\""
+  },
+  "PostInstall": {
+    "Remove": [],
+    "CopyFile": []
+  }
+}

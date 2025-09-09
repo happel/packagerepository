@@ -343,8 +343,6 @@ process {
                         Write-Host $packagesourcePath 
                         Write-Host $packagepath 
 
-                        
-                        
                         if (!(Test-Path -path $packagepath)) {
                         Move-Item -Path $packagesourcePath -Destination $packagepath -force -Verbose
                         } 

@@ -1,0 +1,15 @@
+{
+  "PackageInformation": {
+    "SetupType": "MSI",
+    "SetupFile": "msodbcsql.msi",
+    "Version": "18.3.3.1"
+  },
+  "LogPath": "C:\\Logs",
+  "InstallTasks": {
+    "ArgumentList": "/package \"#SetupFile\" /quiet /log \"#LogPath\\#LogName.log\" IACCEPTMSODBCSQLLICENSETERMS=YES REBOOT=REALLYSUPPRESS"
+  },
+  "PostInstall": {
+    "Remove": [],
+    "CopyFile": []
+  }
+}

@@ -1,7 +1,36 @@
 [
   {
     "Path": "c:\\dev\\packagefactory\\packages",
-    "Application": "MicrosoftWvdRemoteDesktop",
+    "Application": "7-Zip",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "AdobeAcrobatReaderDCInstall",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },    
+
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "AdoptiumTemurin11",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "CitrixWorkspaceAppCurrent",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "CitrixWorkspaceAppLTSR",
     "Type": "App",
     "WorkingPath": "c:\\dev\\packagefactory\\output",
     "Import": false
@@ -12,10 +41,45 @@
     "Type": "App",
     "WorkingPath": "c:\\dev\\packagefactory\\output",
     "Import": false
+  },  
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "KeePass",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
   },
   {
     "Path": "c:\\dev\\packagefactory\\packages",
-    "Application": "MozillaFirefox",
+    "Application": "MicrosoftEdge",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftEdgeWebView2",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftFSLogixApps",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftODBCDriverForSQLServer17",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftODBCDriverForSQLServer18",
     "Type": "App",
     "WorkingPath": "c:\\dev\\packagefactory\\output",
     "Import": false
@@ -29,7 +93,7 @@
   },
   {
     "Path": "c:\\dev\\packagefactory\\packages",
-    "Application": "MicrosoftFSLogixApps",
+    "Application": "MicrosoftOLEDBDriverForSQLServer19",
     "Type": "App",
     "WorkingPath": "c:\\dev\\packagefactory\\output",
     "Import": false
@@ -50,21 +114,112 @@
   },
   {
     "Path": "c:\\dev\\packagefactory\\packages",
-    "Application": "Notepad++",
-    "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
-    "Import": false
-  },  
-  {
-    "Path": "c:\\dev\\packagefactory\\packages",
-    "Application": "PuTTy",
+    "Application": "MicrosoftTeams",
     "Type": "App",
     "WorkingPath": "c:\\dev\\packagefactory\\output",
     "Import": false
   },
   {
     "Path": "c:\\dev\\packagefactory\\packages",
-    "Application": "7-Zip",
+    "Application": "MicrosoftTeamsClassic",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftTeamsModern",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftVcRedist2015x64",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftVcRedist2015x86",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftVcRedist2017x64",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftVcRedist2017x86",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftVcRedist2019x64",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftVcRedist2019x86",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftVcRedist2022x64",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftVcRedist2022x86",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftWvdRemoteDesktop",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MozillaFirefox",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "Notepad++",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  }, 
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "PDF24Creator",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "PuTTy",
     "Type": "App",
     "WorkingPath": "c:\\dev\\packagefactory\\output",
     "Import": false
@@ -75,6 +230,13 @@
     "Type": "App",
     "WorkingPath": "c:\\dev\\packagefactory\\output",
     "Import": false
-  }         
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "AdobeAcrobatReaderDCx64Update",
+    "Type": "Update",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  }             
 ]
 

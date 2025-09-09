@@ -1,25 +1,25 @@
 {
   "Application": {
-    "Name": "7-Zip",
-    "Filter": "Get-EvergreenApp -Name \"7Zip\" | Where-Object { $_.Architecture -eq \"x64\" -and $_.Type -eq \"msi\" }",
-    "Title": "7-Zip",
-    "Language": "English",
+    "Name": "PDF24Creator",
+    "Filter": "Get-EvergreenApp -Name \"GeekSoftwarePDF24Creator\" | Where-Object { $_.Type -eq \"msi\" }",
+    "Title": "Geek Software PDF24 Creator",
+    "Language": "en-US",
     "Architecture": "x64"
   },
   "PackageInformation": {
     "SetupType": "MSI",
-    "SetupFile": "7z2501-x64.msi",
-    "Version": "25.01",
+    "SetupFile": "pdf24-creator-11.28.1.msi",
+    "Version": "11.28.1",
     "SourceFolder": "Source",
     "OutputFolder": "Package",
     "IconFile": "https://github.com/aaronparker/icons/raw/main/companyportal/Package.png"
   },
   "Information": {
-    "DisplayName": "7-Zip 25.01 x64",
-    "Description": "The OLE DB Driver for SQL Server is a stand-alone data access application programming interface (API), that is part of OLE DB.",
-    "Publisher": "Microsoft",
-    "InformationURL": "https://learn.microsoft.com/en-us/sql/connect/oledb/oledb-driver-for-sql-server?view=sql-server-ver16",
-    "PrivacyURL": "https://privacy.microsoft.com/privacystatement",
+    "DisplayName": "Geek Software PDF24 Creator 11.28.1",
+    "Description": "Free and easy to use PDF solution.",
+    "Publisher": "Geek Software",
+    "InformationURL": "https://tools.pdf24.org/en/creator",
+    "PrivacyURL": "https://www.pdf24.org/en/privacy-policy",
     "Categories": [],
     "PSPackageFactoryGuid": "27e8b145-6434-44b7-a1d7-90172bec588a"
   },
@@ -43,7 +43,7 @@
       "Path": "C:\\Program Files\\PowerShell\\7",
       "FileOrFolder": "pwsh.exe",
       "Operator": "greaterThanOrEqual",
-      "VersionValue": "25.01",
+      "VersionValue": "11.28.1",
       "Check32BitOn64System": "false"
     }
   ],

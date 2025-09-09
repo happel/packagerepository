@@ -1,0 +1,63 @@
+{
+  "Application": {
+    "Name": "MicrosoftVcRedist2017x86",
+    "Filter": "Get-VcList -Release \"2017\" -Architecture \"x86\"",
+    "Title": "Microsoft Visual C++ Redistributable for Visual Studio 2017",
+    "Language": "en-US",
+    "Architecture": "x86"
+  },
+  "PackageInformation": {
+    "SetupType": "EXE",
+    "SetupFile": "vc_redist.x86.exe",
+    "Version": "14.16.27052.0",
+    "SourceFolder": "Source",
+    "OutputFolder": "Package",
+    "IconFile": "https://github.com/aaronparker/icons/raw/main/companyportal/Microsoft-VisualStudioCode2017.png"
+  },
+  "Information": {
+    "DisplayName": "Microsoft Visual C++ Redistributable for Visual Studio 2017 14.16.27052.0 x86",
+    "Description": "This package installs run-time components of Visual C++ libraries and can be used to run such applications on a computer even if it does not have Visual Studio 2017 installed.",
+    "Publisher": "Microsoft",
+    "InformationURL": "https://visualstudio.microsoft.com/downloads/",
+    "PrivacyURL": "https://privacy.microsoft.com/privacystatement",
+    "Categories": [],
+    "PSPackageFactoryGuid": "46de83f6-5244-4b38-bcbc-4ec0664c2b26"
+  },
+  "Program": {
+    "InstallTemplate": "powershell.exe -ExecutionPolicy Bypass -NonInteractive -WindowStyle Hidden -File .\\Install.ps1",
+    "InstallCommand": "powershell.exe -ExecutionPolicy Bypass -NonInteractive -WindowStyle Hidden -File .\\Install.ps1",
+    "UninstallCommand": "\"C:\\ProgramData\\Package Cache\\{828c60b0-2de1-4d01-9534-a221878151eb}\\vc_redist.x86.exe\" /uninstall /quiet /norestart",
+    "InstallExperience": "system",
+    "DeviceRestartBehavior": "basedOnReturnCode",
+    "AllowAvailableUninstall": false
+  },
+  "RequirementRule": {
+    "MinimumRequiredOperatingSystem": "W10_1809",
+    "Architecture": "All"
+  },
+  "CustomRequirementRule": [],
+  "DetectionRule": [
+    {
+      "Type": "Registry",
+      "DetectionMethod": "VersionComparison",
+      "KeyPath": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{410c0ee1-00bb-41b6-9772-e12c2828b02f}",
+      "ValueName": "DisplayVersion",
+      "Operator": "greaterThanOrEqual",
+      "Value": "14.16.27052.0",
+      "Check32BitOn64System": "true"
+    }
+  ],
+  "Dependencies": [],
+  "Supersedence": [],
+  "Assignments": [
+    {
+      "Type": "AllDevices",
+      "Intent": "required",
+      "Notification": "showReboot",
+      "EnableRestartGracePeriod": true,
+      "RestartGracePeriod": 1440,
+      "RestartCountDownDisplay": 15,
+      "RestartNotificationSnooze": 240
+    }
+  ]
+}

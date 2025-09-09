@@ -59,10 +59,11 @@ foreach ($ManifestJson in $ManifestList) {
             Write-Host -ForegroundColor "Cyan" "Found: $($Manifest.Application.Title) $($AppUpdate.Version) $($AppUpdate.Architecture)."
 
             # If the version that Evergreen returns is higher than the version in the manifest
-            if ([System.Version]$AppUpdate.Version -eq [System.Version]$Manifest.PackageInformation.Version) {
+            if ($AppUpdate.Version -eq $Manifest.PackageInformation.Version) {
+                
                 Write-Host -ForegroundColor "Cyan" "Update version: $($AppUpdate.Version) matches manifest version: $($Manifest.PackageInformation.Version)."
             }
-            elseif ([System.Version]$AppUpdate.Version -gt [System.Version]$Manifest.PackageInformation.Version -or [System.String]::IsNullOrEmpty($Manifest.PackageInformation.Version)) {
+            elseif ([Version]($AppUpdate.Version -split '\+')[0] -gt [Version]($Manifest.PackageInformation.Version -split '\+')[0] -or [System.String]::IsNullOrEmpty($Manifest.PackageInformation.Version -split '\+')[0]) {
 
                 # Update the manifest with the application setup file
                 Write-Host -ForegroundColor "Cyan" "Update package from: $($Manifest.PackageInformation.Version) to: $($AppUpdate.Version)."
@@ -173,10 +174,10 @@ foreach ($ManifestJson in $ManifestList) {
                 }
 
                 # If the version that Evergreen returns is higher than the version in the manifest
-                if ([System.Version]$AppUpdate.Version -eq [System.Version]$InstallData.PackageInformation.Version) {
+                if ($AppUpdate.Version -eq $InstallData.PackageInformation.Version) {
                     Write-Host -ForegroundColor "Cyan" "Update version: $($AppUpdate.Version) matches install script version: $($Manifest.PackageInformation.Version)."
                 }
-                elseif ([System.Version]$AppUpdate.Version -gt [System.Version]$InstallData.PackageInformation.Version -or [System.String]::IsNullOrEmpty($InstallData.PackageInformation.Version)) {
+                elseif ([Version]($AppUpdate.Version -split '\+')[0] -gt [Version]($InstallData.PackageInformation.Version -split '\+')[0]-or [String]::IsNullOrEmpty($InstallData.PackageInformation.Version -split '\+')[0]) {
 
                     # Update the manifest with the application setup file
                     Write-Host -ForegroundColor "Cyan" "Update install script: $InstallConfiguration"

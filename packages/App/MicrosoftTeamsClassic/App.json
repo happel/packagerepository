@@ -1,25 +1,25 @@
 {
   "Application": {
-    "Name": "7-Zip",
-    "Filter": "Get-EvergreenApp -Name \"7Zip\" | Where-Object { $_.Architecture -eq \"x64\" -and $_.Type -eq \"msi\" }",
-    "Title": "7-Zip",
-    "Language": "English",
+    "Name": "MicrosoftTeamsClassic",
+    "Filter": "Get-EvergreenApp -Name \"MicrosoftTeamsClassic\" | Where-Object { $_.Ring -eq \"General\" -and $_.Architecture -eq \"x64\" -and $_.Type -eq \"msi\" }",
+    "Title": "Microsoft Teams Classic",
+    "Language": "en-US",
     "Architecture": "x64"
   },
   "PackageInformation": {
-    "SetupType": "MSI",
-    "SetupFile": "7z2501-x64.msi",
-    "Version": "25.01",
+    "SetupType": "EXE",
+    "SetupFile": "Teams_windows_x64.msi",
+    "Version": "1.8.00.21151",
     "SourceFolder": "Source",
     "OutputFolder": "Package",
-    "IconFile": "https://github.com/aaronparker/icons/raw/main/companyportal/Package.png"
+    "IconFile": "https://github.com/aaronparker/icons/raw/main/companyportal/Microsoft-Teams.png"
   },
   "Information": {
-    "DisplayName": "7-Zip 25.01 x64",
-    "Description": "The OLE DB Driver for SQL Server is a stand-alone data access application programming interface (API), that is part of OLE DB.",
+    "DisplayName": "Microsoft Teams Classic 1.8.00.21151 x64",
+    "Description": "Microsoft Teams is a team collaboration platform developed by Microsoft as part of the Microsoft 365 suite.",
     "Publisher": "Microsoft",
-    "InformationURL": "https://learn.microsoft.com/en-us/sql/connect/oledb/oledb-driver-for-sql-server?view=sql-server-ver16",
-    "PrivacyURL": "https://privacy.microsoft.com/privacystatement",
+    "InformationURL": "https://teams.microsoft.com",
+    "PrivacyURL": "https://teams.microsoft.com",
     "Categories": [],
     "PSPackageFactoryGuid": "27e8b145-6434-44b7-a1d7-90172bec588a"
   },
@@ -43,7 +43,7 @@
       "Path": "C:\\Program Files\\PowerShell\\7",
       "FileOrFolder": "pwsh.exe",
       "Operator": "greaterThanOrEqual",
-      "VersionValue": "25.01",
+      "VersionValue": "1.8.00.21151",
       "Check32BitOn64System": "false"
     }
   ],

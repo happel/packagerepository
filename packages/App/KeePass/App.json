@@ -1,25 +1,25 @@
 {
   "Application": {
-    "Name": "7-Zip",
-    "Filter": "Get-EvergreenApp -Name \"7Zip\" | Where-Object { $_.Architecture -eq \"x64\" -and $_.Type -eq \"msi\" }",
-    "Title": "7-Zip",
-    "Language": "English",
+    "Name": "KeePass",
+    "Filter": "Get-EvergreenApp -Name \"KeePass\" | Where-Object { $_.Architecture -eq \"x86\" -and $_.Type -eq \"exe\" }",
+    "Title": "KeePass Password Safe",
+    "Language": "en-US",
     "Architecture": "x64"
   },
   "PackageInformation": {
-    "SetupType": "MSI",
-    "SetupFile": "7z2501-x64.msi",
-    "Version": "25.01",
+    "SetupType": "EXE",
+    "SetupFile": "KeePass-2.59-Setup.exe",
+    "Version": "2.59",
     "SourceFolder": "Source",
     "OutputFolder": "Package",
     "IconFile": "https://github.com/aaronparker/icons/raw/main/companyportal/Package.png"
   },
   "Information": {
-    "DisplayName": "7-Zip 25.01 x64",
-    "Description": "The OLE DB Driver for SQL Server is a stand-alone data access application programming interface (API), that is part of OLE DB.",
-    "Publisher": "Microsoft",
-    "InformationURL": "https://learn.microsoft.com/en-us/sql/connect/oledb/oledb-driver-for-sql-server?view=sql-server-ver16",
-    "PrivacyURL": "https://privacy.microsoft.com/privacystatement",
+    "DisplayName": "KeePass Password Safe 2.59 x86",
+    "Description": "KeePass is a free open source password manager, which helps you to manage your passwords in a secure way.",
+    "Publisher": "Dominik Reichl",
+    "InformationURL": "https://aka.ms/PowerShell-docs",
+    "PrivacyURL": "https://adoptium.net/en-GB/temurin",
     "Categories": [],
     "PSPackageFactoryGuid": "27e8b145-6434-44b7-a1d7-90172bec588a"
   },
@@ -43,7 +43,7 @@
       "Path": "C:\\Program Files\\PowerShell\\7",
       "FileOrFolder": "pwsh.exe",
       "Operator": "greaterThanOrEqual",
-      "VersionValue": "25.01",
+      "VersionValue": "2.59",
       "Check32BitOn64System": "false"
     }
   ],

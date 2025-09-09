@@ -1,8 +1,8 @@
 {
   "PackageInformation": {
     "SetupType": "EXE",
-    "SetupFile": "CitrixWorkspaceApp24.2.0.172.exe",
-    "Version": "24.2.0.172"
+    "SetupFile": "CitrixWorkspaceApp24.2.3001.9.exe",
+    "Version": "24.2.3001.9"
   },
   "LogPath": "C:\\Logs",
   "InstallTasks": {
