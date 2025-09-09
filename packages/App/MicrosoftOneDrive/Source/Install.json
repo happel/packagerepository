@@ -1,0 +1,16 @@
+{
+  "PackageInformation": {
+    "SetupType": "EXE",
+    "SetupFile": "OneDriveSetup.exe",
+    "Version": "25.095.0518.0002"
+  },
+  "LogPath": "C:\\Logs",
+  "InstallTasks": {
+    "StopProcess": [],
+    "ArgumentList": "/allusers /silent /log \"#LogPath\\#LogName.log\""
+  },
+  "PostInstall": {
+    "Remove": [],
+    "CopyFile": []
+  }
+}

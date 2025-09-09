@@ -1,0 +1,16 @@
+{
+  "PackageInformation": {
+    "SetupType": "EXE",
+    "SetupFile": "npp.8.8.5.Installer.x64.exe",
+    "Version": "8.8.5"
+  },
+  "LogPath": "C:\\Logs",
+  "InstallTasks": {
+    "StopProcess": [],
+    "ArgumentList": "/S"
+  },
+  "PostInstall": {
+    "Remove": [],
+    "CopyFile": []
+  }
+}

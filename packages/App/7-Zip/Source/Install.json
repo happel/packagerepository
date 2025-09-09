@@ -1,0 +1,15 @@
+{
+  "PackageInformation": {
+    "SetupType": "MSI",
+    "SetupFile": "7z2501-x64.msi",
+    "Version": "25.01"
+  },
+  "LogPath": "C:\\Logs",
+  "InstallTasks": {
+    "ArgumentList": "/package \"#SetupFile\" /quiet /log \"#LogPath\\#LogName.log\""
+  },
+  "PostInstall": {
+    "Remove": [],
+    "CopyFile": []
+  }
+}

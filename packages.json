@@ -1,0 +1,80 @@
+[
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftWvdRemoteDesktop",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "GoogleChrome",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MozillaFirefox",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftOLEDBDriverForSQLServer18",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftFSLogixApps",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftOneDrive",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "MicrosoftPowerShell",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "Notepad++",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },  
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "PuTTy",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "7-Zip",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  },
+  {
+    "Path": "c:\\dev\\packagefactory\\packages",
+    "Application": "Wireshark",
+    "Type": "App",
+    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "Import": false
+  }         
+]
+

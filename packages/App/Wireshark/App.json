@@ -1,0 +1,53 @@
+{
+  "Application": {
+    "Name": "Wireshark",
+    "Filter": "Get-EvergreenApp -Name \"Wireshark\" | Where-Object { $_.Release -eq \"Stable\" -and $_.Architecture -eq \"x64\" -and $_.Type -eq \"msi\" }",
+    "Title": "Wireshark",
+    "Language": "English",
+    "Architecture": "x64"
+  },
+  "PackageInformation": {
+    "SetupType": "MSI",
+    "SetupFile": "msoledbsql.msi",
+    "Version": "18.7.2.0",
+    "SourceFolder": "Source",
+    "OutputFolder": "Package",
+    "IconFile": "https://github.com/aaronparker/icons/raw/main/companyportal/Package.png"
+  },
+  "Information": {
+    "DisplayName": "Wireshark 18.7.2.0 x64",
+    "Description": "The OLE DB Driver for SQL Server is a stand-alone data access application programming interface (API), that is part of OLE DB.",
+    "Publisher": "Microsoft",
+    "InformationURL": "https://learn.microsoft.com/en-us/sql/connect/oledb/oledb-driver-for-sql-server?view=sql-server-ver16",
+    "PrivacyURL": "https://privacy.microsoft.com/privacystatement",
+    "Categories": [],
+    "PSPackageFactoryGuid": "27e8b145-6434-44b7-a1d7-90172bec588a"
+  },
+  "Program": {
+    "InstallTemplate": "powershell.exe -ExecutionPolicy Bypass -NonInteractive -WindowStyle Hidden -File .\\Install.ps1",
+    "InstallCommand": "powershell.exe -ExecutionPolicy Bypass -NonInteractive -WindowStyle Hidden -File .\\Install.ps1",
+    "UninstallCommand": "powershell.exe -ExecutionPolicy Bypass -NonInteractive -WindowStyle Hidden -File .\\Uninstall.ps1",
+    "InstallExperience": "system",
+    "DeviceRestartBehavior": "suppress",
+    "AllowAvailableUninstall": false
+  },
+  "RequirementRule": {
+    "MinimumRequiredOperatingSystem": "W10_1809",
+    "Architecture": "x64"
+  },
+  "CustomRequirementRule": [],
+  "DetectionRule": [
+    {
+      "Type": "File",
+      "DetectionMethod": "Version",
+      "Path": "C:\\Program Files\\PowerShell\\7",
+      "FileOrFolder": "pwsh.exe",
+      "Operator": "greaterThanOrEqual",
+      "VersionValue": "18.7.2.0",
+      "Check32BitOn64System": "false"
+    }
+  ],
+  "Dependencies": [],
+  "Supersedence": [],
+  "Assignments": []
+}

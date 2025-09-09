@@ -1,0 +1,15 @@
+{
+  "PackageInformation": {
+    "SetupType": "EXE",
+    "SetupFile": [ "x64/Release/FSLogixAppsSetup.exe" ],
+    "Version": "25.06"
+  },
+  "LogPath": "C:\\Logs",
+  "InstallTasks": {
+    "ArgumentList": "/install /quiet /norestart /log \"#LogPath\\FSLogixAppsSetup.log\""
+  },
+  "PostInstall": {
+    "Remove": [],
+    "CopyFile": []
+  }
+}

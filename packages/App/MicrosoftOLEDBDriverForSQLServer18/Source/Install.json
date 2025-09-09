@@ -1,0 +1,15 @@
+{
+  "PackageInformation": {
+    "SetupType": "MSI",
+    "SetupFile": "msoledbsql.msi",
+    "Version": "18.7.2.0"
+  },
+  "LogPath": "C:\\Logs",
+  "InstallTasks": {
+    "ArgumentList": "/package \"#SetupFile\" /quiet /log \"#LogPath\\#LogName.log\" IACCEPTMSOLEDBSQLLICENSETERMS=YES REBOOT=REALLYSUPPRESS"
+  },
+  "PostInstall": {
+    "Remove": [],
+    "CopyFile": []
+  }
+}

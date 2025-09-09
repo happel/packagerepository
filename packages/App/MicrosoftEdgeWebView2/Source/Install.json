@@ -1,0 +1,15 @@
+{
+  "PackageInformation": {
+    "SetupType": "EXE",
+    "SetupFile": "MicrosoftEdgeWebView2RuntimeInstallerX64.exe",
+    "Version": "140.0.3485.54"
+  },
+  "LogPath": "C:\\Logs",
+  "InstallTasks": {
+    "ArgumentList": "/silent /install"
+  },
+  "PostInstall": {
+    "Remove": [],
+    "CopyFile": []
+  }
+}
