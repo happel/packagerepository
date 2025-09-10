@@ -1,0 +1,53 @@
+{
+  "Application": {
+    "Name": "AWS AppStream 2.0 Client",
+    "Filter": "Get-EvergreenApp -Name \"AWSAppStreamClient\" -ErrorAction \"SilentlyContinue\" -WarningAction \"SilentlyContinue\" | Where-Object { $_.Type -eq \"exe\" }",
+    "Title": "AWS AppStream 2.0 Client",
+    "Language": "en-US",
+    "Architecture": "x64"
+  },
+  "PackageInformation": {
+    "SetupType": "EXE",
+    "SetupFile": "AmazonAppStreamClientSetup_1.1.1437.exe",
+    "Version": "1.1.1437",
+    "SourceFolder": "Source",
+    "OutputFolder": "Package",
+    "IconFile": "https://github.com/aaronparker/icons/raw/main/companyportal/Package.png"
+  },
+  "Information": {
+    "DisplayName": "AWS AppStream 2.0 Client 1.1.1437",
+    "Description": "The AppStream 2.0 client is a native application that is designed for users who require additional functionality during their AppStream 2.0 streaming sessions",
+    "Publisher": "Amazon",
+    "InformationURL": "https://docs.aws.amazon.com/en_us/appstream2/",
+    "PrivacyURL": "https://docs.aws.amazon.com/en_us/appstream2/",
+    "Categories": [],
+    "PSPackageFactoryGuid": "5ba4f47a-db61-4646-879c-88ee8fdb2c74"
+  },
+  "Program": {
+    "InstallTemplate": "powershell.exe -ExecutionPolicy Bypass -NonInteractive -WindowStyle Hidden -File .\\Install.ps1",
+    "InstallCommand": "powershell.exe -ExecutionPolicy Bypass -NonInteractive -WindowStyle Hidden -File .\\Install.ps1",
+    "UninstallCommand": "powershell.exe -ExecutionPolicy Bypass -NonInteractive -WindowStyle Hidden -File .\\Uninstall.ps1",
+    "InstallExperience": "system",
+    "DeviceRestartBehavior": "suppress",
+    "AllowAvailableUninstall": false
+  },
+  "RequirementRule": {
+    "MinimumRequiredOperatingSystem": "W10_1809",
+    "Architecture": "x64"
+  },
+  "CustomRequirementRule": [],
+  "DetectionRule": [
+    {
+      "Type": "File",
+      "DetectionMethod": "Version",
+      "Path": "C:\\Program Files\\Notepad++",
+      "FileOrFolder": "Notepad++.exe",
+      "Operator": "greaterThanOrEqual",
+      "VersionValue": "1.1.1437",
+      "Check32BitOn64System": "false"
+    }
+  ],
+  "Dependencies": [],
+  "Supersedence": [],
+  "Assignments": []
+}

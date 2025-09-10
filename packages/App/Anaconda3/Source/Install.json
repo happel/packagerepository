@@ -1,0 +1,16 @@
+{
+  "PackageInformation": {
+    "SetupType": "EXE",
+    "SetupFile": "Anaconda3-2025.06-1-Windows-x86_64.exe",
+    "Version": "2025.06"
+  },
+  "LogPath": "C:\\Logs",
+  "InstallTasks": {
+    "StopProcess": [],
+    "ArgumentList": "/S /Installationtype=Allusers /RegistryPython=1 /D=C:\\ProgramData\\Anaconda3"
+  },
+  "PostInstall": {
+    "Remove": [],
+    "CopyFile": []
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "Application": {
+    "Name": "Anaconda",
+    "Filter": "Get-EvergreenApp -Name \"Anaconda\" -ErrorAction \"SilentlyContinue\" -WarningAction \"SilentlyContinue\" | Where-Object { $_.Architecture -eq \"x64\" }",
+    "Title": "Anaconda",
+    "Language": "en-US",
+    "Architecture": "x64"
+  },
+  "PackageInformation": {
+    "SetupType": "EXE",
+    "SetupFile": "Anaconda3-2025.06-1-Windows-x86_64.exe",
+    "Version": "2025.06",
+    "SourceFolder": "Source",
+    "OutputFolder": "Package",
+    "IconFile": "https://github.com/aaronparker/icons/raw/main/companyportal/Package.png"
+  },
+  "Information": {
+    "DisplayName": "Anaconda 2025.06 x64",
+    "Description": "Anaconda Python Environment",
+    "Publisher": "Anaconda",
+    "InformationURL": "https://www.anaconda.com",
+    "PrivacyURL": "https://legal.anaconda.com/policies/en/?name=privacy-policy#anaconda-privacy-policy",
+    "Categories": [],
+    "PSPackageFactoryGuid": "5ba4f47a-db61-4646-879c-88ee8fdb2c74"
+  },
+  "Program": {
+    "InstallTemplate": "powershell.exe -ExecutionPolicy Bypass -NonInteractive -WindowStyle Hidden -File .\\Install.ps1",
+    "InstallCommand": "powershell.exe -ExecutionPolicy Bypass -NonInteractive -WindowStyle Hidden -File .\\Install.ps1",
+    "UninstallCommand": "powershell.exe -ExecutionPolicy Bypass -NonInteractive -WindowStyle Hidden -File .\\Uninstall.ps1",
+    "InstallExperience": "system",
+    "DeviceRestartBehavior": "suppress",
+    "AllowAvailableUninstall": false
+  },
+  "RequirementRule": {
+    "MinimumRequiredOperatingSystem": "W10_1809",
+    "Architecture": "x64"
+  },
+  "CustomRequirementRule": [],
+  "DetectionRule": [
+    {
+      "Type": "File",
+      "DetectionMethod": "Version",
+      "Path": "C:\\Program Files\\Notepad++",
+      "FileOrFolder": "Notepad++.exe",
+      "Operator": "greaterThanOrEqual",
+      "VersionValue": "2025.06",
+      "Check32BitOn64System": "false"
+    }
+  ],
+  "Dependencies": [],
+  "Supersedence": [],
+  "Assignments": []
+}

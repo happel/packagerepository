@@ -66,8 +66,9 @@ foreach ($ManifestJson in $ManifestList) {
             elseif ([Version]($AppUpdate.Version -split '\+')[0] -gt [Version]($Manifest.PackageInformation.Version -split '\+')[0] -or [System.String]::IsNullOrEmpty($Manifest.PackageInformation.Version -split '\+')[0]) {
 
                 # Update the manifest with the application setup file
-                Write-Host -ForegroundColor "Cyan" "Update package from: $($Manifest.PackageInformation.Version) to: $($AppUpdate.Version)."
+                Write-Host -ForegroundColor "Green" "Update package from: $($Manifest.PackageInformation.Version) to: $($AppUpdate.Version)."
                 $Manifest.PackageInformation.Version = $AppUpdate.Version
+                $UpdatedPackages++
 
                 if ([System.Boolean]($AppUpdate.PSobject.Properties.Name -match "URI")) {
                     if ($AppUpdate.URI -match "\.zip$") {
@@ -224,4 +225,8 @@ foreach ($ManifestJson in $ManifestList) {
             #endregion
         }
     }
+}
+
+if ($UpdatedPackages -ne $null ) {
+    Write-Host "Updated packages: $UpdatedPackages"
 }
