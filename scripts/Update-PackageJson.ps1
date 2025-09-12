@@ -66,6 +66,9 @@ foreach ($ManifestJson in $ManifestList) {
             elseif ([Version]($AppUpdate.Version -split '\+')[0] -gt [Version]($Manifest.PackageInformation.Version -split '\+')[0] -or [System.String]::IsNullOrEmpty($Manifest.PackageInformation.Version -split '\+')[0]) {
 
                 # Update the manifest with the application setup file
+                Write-Host -ForegroundColor "Green" "Writing old package version to manifest: $($Manifest.PackageInformation.Version)."
+                $Manifest.PackageInformation.PreviousVersion = $($Manifest.PackageInformation.Version)
+
                 Write-Host -ForegroundColor "Green" "Update package from: $($Manifest.PackageInformation.Version) to: $($AppUpdate.Version)."
                 $Manifest.PackageInformation.Version = $AppUpdate.Version
                 $UpdatedPackages++

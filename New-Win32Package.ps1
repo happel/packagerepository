@@ -170,7 +170,7 @@ process {
                     Write-Information -MessageData "$($PSStyle.Foreground.BrightGreen)Deleting old versions: '$WorkingPath\$ApplicationName'"
 
                         Get-ChildItem -Path "$WorkingPath"  -Force |
-                        Where-Object { $_.Name -like "*$ApplicationName*" } |
+                        Where-Object { $_.Name -like "*$ApplicationName`_*" } |
                         Remove-Item -Recurse -Force
 
                 

@@ -1,241 +1,227 @@
 [
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "7-Zip",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
-    "Application": "AdobeAcrobatReaderDCInstall",
+    "Path": "c:\\dev\\packagerepository\\packages",
+    "Application": "AdobeAcrobatReaderDC",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },    
 
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "AdoptiumTemurin11",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "CitrixWorkspaceAppCurrent",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "CitrixWorkspaceAppLTSR",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "GoogleChrome",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },  
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "KeePass",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftEdge",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftEdgeWebView2",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftFSLogixApps",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftODBCDriverForSQLServer17",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftODBCDriverForSQLServer18",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftOLEDBDriverForSQLServer18",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftOLEDBDriverForSQLServer19",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftOneDrive",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftPowerShell",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
-    "Application": "MicrosoftTeams",
-    "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
-    "Import": false
-  },
-  {
-    "Path": "c:\\dev\\packagefactory\\packages",
-    "Application": "MicrosoftTeamsClassic",
-    "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
-    "Import": false
-  },
-  {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftTeamsModern",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftVcRedist2015x64",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftVcRedist2015x86",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftVcRedist2017x64",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftVcRedist2017x86",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftVcRedist2019x64",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftVcRedist2019x86",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftVcRedist2022x64",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftVcRedist2022x86",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MicrosoftWvdRemoteDesktop",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "MozillaFirefox",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "Notepad++",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   }, 
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "PDF24Creator",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "PuTTy",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "Wireshark",
     "Type": "App",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   },
   {
-    "Path": "c:\\dev\\packagefactory\\packages",
+    "Path": "c:\\dev\\packagerepository\\packages",
     "Application": "AdobeAcrobatReaderDCx64Update",
     "Type": "Update",
-    "WorkingPath": "c:\\dev\\packagefactory\\output",
+    "WorkingPath": "c:\\dev\\packagerepository\\output",
     "Import": false
   }             
 ]

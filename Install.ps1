@@ -267,7 +267,7 @@ function Uninstall-Msi {
 #region Install logic
 
 # Log file path. Parent directory should exist if device is enrolled in Intune
-$Script:LogFile = "$Env:ProgramData\Microsoft\IntuneManagementExtension\Logs\PSPackageFactoryInstall.log"
+$Script:LogFile = "$Env:HomeDrive\Logs\PackageRepositoryInstall.log"
 
 # Trim log if greater than 50 MB
 if (Test-Path -Path $Script:LogFile) {
